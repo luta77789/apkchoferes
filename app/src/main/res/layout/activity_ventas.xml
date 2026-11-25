@@ -1,0 +1,59 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F4F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRAR VENTAS"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#17365D"
+            android:gravity="center"
+            android:padding="20dp"/>
+
+        <EditText
+            android:id="@+id/venta5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Galones vendidos de 5 kg"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/venta11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Galones vendidos de 11 kg"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/venta15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Galones vendidos de 15 kg"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/venta45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Galones vendidos de 45 kg"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/btnGuardarVenta"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:text="GUARDAR VENTA"/>
+
+    </LinearLayout>
+</ScrollView>

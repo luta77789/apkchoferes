@@ -1,0 +1,62 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F4F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MI INVENTARIO"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#17365D"
+            android:gravity="center"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CILINDROS LLENOS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#16834A"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/stockLlenos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CILINDROS VACÍOS"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#B7791F"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/stockVacios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ACTUALIZAR INVENTARIO"/>
+
+    </LinearLayout>
+</ScrollView>
